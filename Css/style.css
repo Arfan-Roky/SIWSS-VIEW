@@ -1,0 +1,31 @@
+/* universel reset code */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* double border design */
+hr {
+  border: none;
+  border-top: 3px double #333;
+  color: white;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+hr:after {
+  background: #000;
+  content: '§';
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+/* *** */
+
+body{
+  font-family: 'Saira Condensed', sans-serif;
+}
